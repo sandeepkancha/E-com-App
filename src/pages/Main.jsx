@@ -1,15 +1,20 @@
-import { BrowserRouter,Routes,Router } from "react-router-dom";
-
+import { Routes,Route } from "react-router-dom";
+import Home from "../components/Home";
+import Cart from "../components/Cart";
+import Product from "../components/Product";
+import Header from "./Header";
 
 const Main = () =>{
     return(
         <main>
-            <BrowserRouter>
+            <Header />
                 <Routes>
-                    <Route path/>
-
+                    <Route index path="/" element={<Home />} />
+                    <Route path="/Product" element={<Product />} />
+                    <Route path="/Cart" element={<Cart />} />
                 </Routes>
-            </BrowserRouter>
         </main>
     )
 }
+
+export default Main;

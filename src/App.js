@@ -1,11 +1,13 @@
-import './App.css';
+import "./App.css";
+import Main from "./pages/Main";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        sdfg
-      </header>
+      <BrowserRouter>
+        <Main />
+      </BrowserRouter>
     </div>
   );
 }
