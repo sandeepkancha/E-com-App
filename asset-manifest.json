@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/E-com-App/static/css/main.e6c13ad2.css",
-    "main.js": "/E-com-App/static/js/main.e120241c.js",
+    "main.css": "/E-com-App/static/css/main.c75a97ad.css",
+    "main.js": "/E-com-App/static/js/main.af9229c3.js",
     "index.html": "/E-com-App/index.html",
-    "main.e6c13ad2.css.map": "/E-com-App/static/css/main.e6c13ad2.css.map",
-    "main.e120241c.js.map": "/E-com-App/static/js/main.e120241c.js.map"
+    "main.c75a97ad.css.map": "/E-com-App/static/css/main.c75a97ad.css.map",
+    "main.af9229c3.js.map": "/E-com-App/static/js/main.af9229c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.e120241c.js"
+    "static/css/main.c75a97ad.css",
+    "static/js/main.af9229c3.js"
   ]
 }
